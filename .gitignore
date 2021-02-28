@@ -1,0 +1,5 @@
+# exclude the images file
+images/
+.scrapy
+log/
+minibios.json

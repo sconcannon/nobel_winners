@@ -1,0 +1,33 @@
+//*[@id="q155525$82312275-D23F-4048-A710-6EC6AB12C2C2"]/div[2]/div[1]/div/div[2]/div[2]/div[1]
+
+/html/body/div[1]/div/main/div[3]/div[1]/div/section[6]/div/ol/li[3]/span[2]/a[2]
+
+//*[@id="P21"]/div[1]/div/a
+
+//*[@id="q155525$E63FA071-F3C8-4982-8C05-A0E2AE4E03FF"]/div[2]/div[1]/div/div[2]/div[2]/div[1]/a
+
+                          //*[@id="q155525$E63FA071-F3C8-4982-8C05-A0E2AE4E03FF"]/div[2]/div[1]/div/div[2]/div[2]/div[1]/a
+/html/body/div[3]/div[3]/div[5]/div[1]/div[1]/div[3]/div[1]/div[3]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[2]/div[1]/a
+//*[@id="P21"]/div[1]/div/div/div[2]/div[1]/div/div[2]/div[2]/div[1]/a fails
+
+'//*[@id="P21"]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[2]/text()'
+/html/body/div[1]
+
+
+Male xpath
+//*[@id="q155525$E63FA071-F3C8-4982-8C05-A0E2AE4E03FF"]/div[2]/div[1]/div/div[2]/div[2]/div[1]/a
+
+Male Full xpath
+/html/body/div[3]/div[3]/div[5]/div[1]/div[1]/div[3]/div[1]/div[3]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[2]/div[1]/a
+
+Male P xpath
+//*[@id="P21"]
+
+Male P full xpath
+/html/body/div[3]/div[3]/div[5]/div[1]/div[1]/div[3]/div[1]/div[3]
+
+Male xpath from P
+//*[@id="P21"]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[2]/div[1]/a/text()
+
+Book p_template
+'//*[@id="P569"]/div[2]/div/div/div[2]/div[1]/div/div[2]/div[2]/text()'

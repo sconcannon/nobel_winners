@@ -1,0 +1,26 @@
+inside div mw-parser-output
+look at every child, collect ps until div id=toc appears
+
+
+paras = response.xpath('//div[@class="mw-parser-output"]/*')
+ST_PT = 3 # start at the 4th element in div.mw-parser-output
+mini_bio = ''
+for x in range(ST_PT,len(paras)):
+  if paras[x].xpath('@id').extract() == ['toc']:
+      break
+  mini_bio += paras[x].extract()
+  
+print(mini_bio)
+
+paras = response.xpath('//div[@class="mw-parser-output"]/*')
+mini_bio = ''
+for x in range(0,len(paras)):
+  if paras[x].xpath('@id').extract() == ['toc']:
+      break
+  if not paras[x].xpath('@class'):
+    mini_bio += paras[x].extract()
+print(mini_bio)
+            
+
+ 
+ 
